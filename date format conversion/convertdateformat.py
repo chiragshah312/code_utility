@@ -32,8 +32,6 @@ def get_date_in_format(input_format, output_format, input_date, input_date_separ
         return output
     return output.strftime(formats[output_format].replace(" ", output_date_separator))
     
-    # return output.replace(input_date_separator, output_date_separator)[:10]
-    
 
 ## How to use it?
 a = datetime.now()
